@@ -30,14 +30,15 @@ def subtract(num_1,num_2):
 
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 difference = subtract(box_1,box_2)
-print(difference)
-#Print the difference variable to see your result.
 
+#Print the difference variable to see your result.
+print(difference)
 
 #4
 # Function - multiply
 #Create a function named `multiply` which will take two parameters: `num_1` and `num_2`.
-
+def multiply(num_1,num_2):
+    return num_1*num_2
 #This function will multiply two numbers and return the product of these two numbers. Invoke the function and assign it to a variable named `product`.
 
 #Print the product variable to see your result.
